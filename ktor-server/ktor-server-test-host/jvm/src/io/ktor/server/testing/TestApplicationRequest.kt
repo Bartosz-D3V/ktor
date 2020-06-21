@@ -21,6 +21,7 @@ import io.ktor.utils.io.core.*
  * @property method HTTP method to be sent or executed
  * @property uri HTTP url to sent request to or was sent to
  * @property version HTTP version to sent or executed
+ * @property port (Optional) HTTP port to send request to
  * @property protocol HTTP protocol to be used or was used
  */
 class TestApplicationRequest constructor(
