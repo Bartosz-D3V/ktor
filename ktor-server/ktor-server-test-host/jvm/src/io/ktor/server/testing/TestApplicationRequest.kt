@@ -30,7 +30,6 @@ public class TestApplicationRequest constructor(
     var method: HttpMethod = HttpMethod.Get,
     var uri: String = "/",
     var port: Int? = null,
-    var port: Int? = null,
     var version: String = "HTTP/1.1"
 ) : BaseApplicationRequest(call), CoroutineScope by call {
     var protocol: String = "http"
